@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css?family=Kumar+One|Kumar+One+Outline');
+
+*{
+  box-sizing: border-box;
+}
+
+a {
+  color: white;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.black{
+  background-color: black;
+  color: white;
+  font-family: "Kumar One Outline", sans-serif;
+  height: 80px;
+  width: 100%
+}
+
+.break{
+  height: 50px;
+  width: 100%;
+}
+
+#bottom{
+  background-image: url(bottom2.jpg);
+  bottom: 0;
+  clear: both;
+  height: 300px;
+  width:100%;
+}
+
+#child {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#clear{
+  clear: both;
+  height: 250px;
+}
+
+.date{
+  font-family: "Kumar One", Serif;
+  font-size: 20px;
+}
+
+#educationhead{
+  font-family: "Kumar One", Serif;
+  font-size: 26px;
+}
+
+#formbox{
+  height: auto;
+  width: 350px;
+}
+
+#formbox form input,
+  #formbox form textarea{
+  font-family: "Kumar One", serif;
+}
+
+#hello{
+  background-repeat: no-repeat;
+  border: 10px solid black;
+  height: auto;
+  width:100%;
+}
+
+#lastsec {
+  clear: both;
+  padding-top: 100px;
+}
+
+.left {
+  float: left;
+  width: 25%;
+}
+
+#logo {
+  padding-top: 50px;
+}
+
+logo.jpg{
+  height: inherit;
+  width:100%;
+}
+
+.information{
+  font-family: "Arial", cursive;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.inner{
+  background-color: white;
+  font-family: "Arial", cursive;
+  font-size: 26px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  text-align: justify;
+  width:80%;
+}
+
+input[type="submit"] {
+  float: right;
+}
+
+.name{
+  font-family: "Kumar One", Serif;
+  font-size: 25px;
+}
+
+.nav{
+  display: inline-block;
+  float: right;
+  font-size: 30px;
+  height: 50px;
+  margin: 15px;
+  text-align: right;
+  width: 600px;
+}
+
+#parent {display: table;}
+
+.right{
+  float: right;
+  height: 220px;
+  margin-left: 30px;
+  width: 65%;
+}
+
+.rightinfo{
+  vertical-align: middle;
+}
+
+.school{
+  clear: both;
+  width: 100%;
+}
+
+.sectionhead{
+  font-family: "Kumar One Outline", sans-serif;
+  font-size: 60px;
+  margin-bottom: 25px;
+  margin-top: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+textarea{
+  width:100%;
+}
+
+#touch{
+  float: right;
+  width: 40%;
+}
+
+.touchhead{
+  font-family: "Kumar One", serif;
+  font-size: 36px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.touchinfo{
+  font-size: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+  .inner {
+    width: 960px;
+  }
+}
+
+@media screen and (max-width: 965px){
+  .date, .information {
+    font-size: 15px;
+  }
+  .inner, .name {
+    font-size: 20px;
+  }
+  #formbox {
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+  #touch {
+    clear: both;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .date, .information {
+    font-size: 13px;
+  }
+  .inner, .name, .touchinfo {
+    font-size: 18px;
+  }
+  .sectionhead {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 740px){
+  .date, .information {
+    font-size: 10px;
+  }
+  .inner, .name, .touchinfo {
+    font-size: 15px;
+  }
+  .sectionhead {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 666px){
+  .date, .information {
+    font-size: 13px;
+  }
+  .inner, .name, .touchinfo {
+    font-size: 18px;
+  }
+  .left, .right {
+    clear: both;
+    width: 100%;
+  }
+  .sectionhead {
+    font-size: 40px;
+  }
+  #logo {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 538px){
+  .date, .information {
+    font-size: 10px;
+  }
+  .inner, .name, .touchinfo {
+    font-size: 15px;
+  }
+  .left, .right {
+    clear: both;
+    width: 100%;
+  }
+  .sectionhead {
+    font-size: 35px;
+  }
+  .touchhead, .nav {
+    font-size: 28px;
+  }
+  #formbox {
+    width: 300px;
+  }
+  #logo {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 475px){
+  .date, .information {
+    font-size: 13px;
+  }
+  .inner, .name, .touchinfo {
+    font-size: 18px;
+  }
+  .left, .right {
+    clear: both;
+    width: 100%;
+  }
+  .sectionhead {
+    font-size: 30px;
+  }
+  .touchhead, .nav {
+    font-size: 24px;
+  }
+  #formbox {
+    width: 250px;
+  }
+  #logo {
+    padding: 0px;
+  }
+}

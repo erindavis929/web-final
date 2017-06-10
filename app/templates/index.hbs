@@ -1,0 +1,96 @@
+<div class="black">
+  <div class="nav">
+    <a href="#about">About</a>
+    <a href="#resume">Resume</a>
+    <a href="#lastsec">Contact</a>
+  </div>
+</div>
+<div id="hello">
+  <img src="logo.jpg" width="100%" height="100%" />
+</div>
+<div class="black">
+</div>
+<div id="about" class="inner">
+  <p>I am currently a student at The Art Institute of Indianapolis, but will continue to grow and develop my skills even when I finish my schooling. Even though I am still learning, I am able to create some interesting and cool pieces. I do web design and coding as well as graphic design. </p>
+  <p>I am pretty young at being just 18 years old, but it gives me a fresher perspective as well. My youth does not bother me for I believe that my youth helps me stand out. I have always been the youngest or one of the youngest in my classes and it always drives me to work harder to prove I belong. </p>
+</div>
+<div class="break">
+  <img src="red-burst.jpg" width="100%"/>
+</div>
+<div class="inner">
+  <!--
+  <div id="resume" class="sectionhead">              DONT HAVE 2 IDS OF RESUME!!!
+    EXPERIENCE
+  </div>
+  <div class="left">
+    this is where the logo goes
+  </div>
+  <div class="right" id="parent">
+    <div class="rightinfo" id="child">
+      <div class="name">
+        This is where the name of the company goes
+      </div>
+      <div class="date">
+        this is where the time i worked for the company goes
+      </div>
+      <div class="information">
+        This is where i describe what I do/did
+      </div>
+    </div>
+  </div>
+  -->
+  <div id="resume" class="sectionhead">
+    EDUCATION
+  </div>
+  {{#each schools as |school|}}
+  <div class="school">
+    <div class="left" id="logo">
+      <img src="{{school.image}}" width="100%" />
+    </div>
+    <div class="right" id="parent">
+      <div class="rightinfo" id="child">
+        <div class="name">
+          {{school.name}}
+        </div>
+        <div class="date">
+          {{school.time}}
+        </div>
+        <div class="information">
+          {{school.description}}
+        </div>
+      </div>
+    </div>
+  </div>
+  {{/each}}
+</div>
+<div class="break">
+  <img src="burstred.jpg" width="100%" />
+</div>
+<div class="inner">
+  <div id="lastsec">
+    <div class="left">
+      <div id="formbox">
+        <form method="post" action="#">
+          <input type="text" placeholder="Name" /><br /><br />
+          <input type="email" placeholder="Email" /><br /><br />
+          <textarea placeholder="Message" rows="10" cols="35"/><br /><br />
+          <input type="submit" value="Submit" class="floatRight" /><br />
+        </form>
+      </div>
+    </div>
+    <div id="touch">
+      <div class="touchhead">
+        Get in Touch
+      </div>
+      <br />
+      <div class="touchinfo">
+        I check my email everyday so you can expect a responce within 24 hours. My class schedule changes quarterly  which also will effect my time to spend on outside projects. Depending on classes and what you want me to make for you it could take a day or several weeks.
+      </div>
+    </div>
+  </div>
+</div>
+<div id="clear">
+</div>
+<div id="bottom">
+ <img src="bottom2.jpg" width="100%" />
+</div>
